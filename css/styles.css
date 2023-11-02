@@ -299,6 +299,7 @@ img {
 .icon-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 264px;
   height: 112px;
   background-color: #F4F4FD;
@@ -343,6 +344,8 @@ img {
   z-index: 3;
   transition: opacity 0.5s;
 }
+
+
 
 .hover-animation-css:hover .porflio-products {
   opacity: 0;

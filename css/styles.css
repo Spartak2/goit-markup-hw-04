@@ -384,6 +384,11 @@ img {
   color: #434455;
 }
 
+.icon-container-section {
+  justify-content: center;
+  align-items: center;
+}
+
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;

@@ -257,16 +257,6 @@ img {
 
 }
 
-.portflio-list{
-  cursor: pointer;
-}
-
-.portflio-list-item:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-              0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-              0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -333,26 +323,24 @@ img {
 .title-name {
   text-align: center;
 }
+
 .paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .paragraph-name {
   text-align: center;
 }
+
 .paragraph-section-four {
   display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.icon-container-section {
-  justify-content: center;
-  align-items: center;
 }
 
 .section-three {
@@ -378,6 +366,7 @@ img {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .link-social:hover,
 .link-social:focus {
   background-color: #404bbf;
@@ -390,6 +379,8 @@ img {
 
 .icon-our-team {
   fill: #f4f4fd;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-four {
@@ -437,105 +428,72 @@ img {
 
 
 /* ----------- PORTFOLIO SECTION ---------- */
-.portfolio-section {
-  background-color: #FFFFFF;
-  padding: 120px 0 120px 0;
+
+.section-four {
+  padding: 120px 0;
 }
 
-.portfolio-section-title {
-  color: #2E2F42;
+.title-two {
+  color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
-  font-family: Roboto, sans-serif;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
+  font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  display: block;
   margin-bottom: 72px;
 }
 
-.portflio-list {
+.list-section-four {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
   column-gap: 24px;
-  margin-left: auto;
-  margin-right: auto;
-
+  row-gap: 48px;
 }
 
-.portflio-list-item {
-  background-color: #FFFFFF;
+.item-sec-four {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portflio-list-item:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.item-sec-four:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-image {
-  position: relative;
-  z-index: 1;
+.item-sec-four:hover .text-img {
+  transform: translateY(0%);
 }
 
-.porflio-products {
-  position: relative;
-  z-index: 3;
+.addition {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  transition: opacity 0.5s, transform 0.5s;
 }
 
-.portflio-list-item:hover .portfolio-image::before {
-  height: 100%;
+.img-section-f {
+  position: relative;
+  overflow: hidden;
 }
 
-.portflio-list-item-name {
-  color: #2E2F42;
-  font-family: Roboto, sans-serif;
+.title-three-section-four {
+  display: block;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
+  color: #2e2f42;
   margin-bottom: 8px;
-  z-index: 3;
+  margin-bottom: 8px;
 }
-
-.portflio-list-item-text {
-  color: #434455;
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  z-index: 3;
-}
-
-
-.hover-animation-css .portfolio-image::before {
-  content: "";
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-  background-color: #4D5AE5;
-  transition: height 0.5s;
-  transform: translateY(0%);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.portflio-hover-p {
+.text-img {
   position: absolute;
   top: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #060621;
+  color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;

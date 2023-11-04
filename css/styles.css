@@ -150,6 +150,7 @@ img {
   border-radius: 2px;
   bottom: -1px
 }
+
 /* ----- ADDRESS ------ */
 .address {
   font-style: normal;
@@ -579,7 +580,6 @@ img {
 .icon-footer {
   fill: #f4f4fd;
 }
-
 .text-footer-social {
   font-weight: 500;
   font-size: 16px;

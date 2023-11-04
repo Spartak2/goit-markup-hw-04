@@ -460,6 +460,10 @@ img {
   height: 40px;
 }
 
+.icon-container-section {
+  fill: #f4f4fd;
+}
+
 .icon-our-team {
   fill: #f4f4fd;
   justify-content: center;
